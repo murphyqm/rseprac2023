@@ -10,6 +10,12 @@ $ for f in problem_2/values*;do val_len=$(wc -w < "$f");if [ "$val_len" -lt 100 
 
 This searches through the problem_2 directory, looking for anything with "values" as a suffix, and then checks the wordcount of the file and if it's less than 100 it outputs the wordcount and the filename.
 
+On the files provided in `Problem_2`, it will return the following output:
+
+```shell
+$ 99 problem_2/values44
+```
+
 If you want a record of this, I've also provided `prob2.sh`, a bash script that you can put in the parent directory containing the "problem_2" folder.
 
 `prob2.sh` contents:
